@@ -142,6 +142,4 @@ socket.on('new-message', (msg) => console.log(msg));
 socket.emit('send-message', { chatId: 'ID', text: 'Hello' });
 ```
 
-## License
 
-MIT
